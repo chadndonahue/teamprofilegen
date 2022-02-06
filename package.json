@@ -1,18 +1,30 @@
 {
   "name": "teamprofilegen",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an application that will give you prompts in your terminal through inquirer that will easily create a team for you",
   "main": "index.js",
   "directories": {
-    "lib": "lib",
-    "test": "tests"
+    "lib": "lib"
   },
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "brace-expansion": "^1.1.11",
+    "browser-process-hrtime": "^1.0.0",
+    "buffer-from": "^1.1.2",
+    "callsites": "^3.1.0",
+    "camelcase": "^5.3.1",
+    "caniuse-lite": "^1.0.30001307",
+    "char-regex": "^1.0.2",
+    "ci-info": "^3.3.0",
+    "cjs-module-lexer": "^1.2.2",
+    "co": "^4.6.0",
+    "collect-v8-coverage": "^1.0.1",
+    "concat-map": "^0.0.1",
+    "inquirer": "^8.2.0",
+    "jest": "^27.5.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
